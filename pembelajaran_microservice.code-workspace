@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../payment"
+		},
+		{
+			"path": "../apigateway"
+		},
+		{
+			"path": "../Customer"
+		},
+		{
+			"path": "../eurekaserver"
+		},
+		{
+			"path": "../order"
+		}
+	],
+	"settings": {}
+}
