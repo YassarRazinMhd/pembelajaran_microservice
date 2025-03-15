@@ -1,0 +1,12 @@
+C:\xampp\htdocs\order\src\main\java\com\teknologiinformasi\config\OrderRabbitConfig.java
+C:\xampp\htdocs\order\src\main\java\com\teknologiinformasi\event\OrderCreatedEvent.java
+C:\xampp\htdocs\order\src\main\java\com\teknologiinformasi\restapi\order\config\OrderRabbitConfig.java
+C:\xampp\htdocs\order\src\main\java\com\teknologiinformasi\restapi\order\controller\OrderController.java
+C:\xampp\htdocs\order\src\main\java\com\teknologiinformasi\restapi\order\event\OrderCreatedEvent.java
+C:\xampp\htdocs\order\src\main\java\com\teknologiinformasi\restapi\order\model\Order.java
+C:\xampp\htdocs\order\src\main\java\com\teknologiinformasi\restapi\order\model\OrderResponse.java
+C:\xampp\htdocs\order\src\main\java\com\teknologiinformasi\restapi\order\model\Produk.java
+C:\xampp\htdocs\order\src\main\java\com\teknologiinformasi\restapi\order\repository\OrderRepository.java
+C:\xampp\htdocs\order\src\main\java\com\teknologiinformasi\restapi\order\RestfulApiApplication.java
+C:\xampp\htdocs\order\src\main\java\com\teknologiinformasi\restapi\order\service\OrderMessageProducer.java
+C:\xampp\htdocs\order\src\main\java\com\teknologiinformasi\restapi\order\service\OrderService.java
