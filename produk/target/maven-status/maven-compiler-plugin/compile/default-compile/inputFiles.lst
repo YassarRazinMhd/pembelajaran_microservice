@@ -1,0 +1,8 @@
+C:\xampp\htdocs\produk\src\main\java\com\teknologiinformasi\restapi\controller\ProdukController.java
+C:\xampp\htdocs\produk\src\main\java\com\teknologiinformasi\restapi\event\OrderCreatedEvent.java
+C:\xampp\htdocs\produk\src\main\java\com\teknologiinformasi\restapi\model\Produk.java
+C:\xampp\htdocs\produk\src\main\java\com\teknologiinformasi\restapi\repository\ProdukRepository.java
+C:\xampp\htdocs\produk\src\main\java\com\teknologiinformasi\restapi\RestfulApiApplication.java
+C:\xampp\htdocs\produk\src\main\java\com\teknologiinformasi\restapi\service\OrderMessageConsumer.java
+C:\xampp\htdocs\produk\src\main\java\com\teknologiinformasi\restapi\service\ProdukService.java
+C:\xampp\htdocs\produk\src\main\java\config\OrderRabbitConfig.java
