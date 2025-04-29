@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: customer-service
+  labels:
+    app: customer-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: customer-service
+  template:
+    metadata:
+      labels:
+        app: customer-service
+    spec:
+      containers:
+      - name: customer-service
+        image: sadaraofficial/customer-service:1.0.3
+        imagePullPolicy: Always 
+        ports:
+        - containerPort: 8084
+        env:
+        - name: spring.datasource.url
+          value: "jdbc:mysql://mysql:3306/dbecommerce_customer?useSSL=false&serverTimezone=UTC"
+        - name: spring.datasource.username
+          value: "root"
+        - name: spring.datasource.password
+          value: ""
+        - name: spring.datasource.driver-class-name
+          value: "com.mysql.cj.jdbc.Driver"
+        - name: spring.jpa.hibernate.ddl-auto
+          value: "update"
+        - name: spring.jpa.properties.hibernate.dialect
+          value: "org.hibernate.dialect.MySQL8Dialect"

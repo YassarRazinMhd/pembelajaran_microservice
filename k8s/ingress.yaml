@@ -1,0 +1,29 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: api-gateway-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$1  # Rewrite path untuk menghapus prefix
+spec:
+  ingressClassName: nginx  
+  rules:
+  - host: microservices.local  # Domain lokal untuk testing
+    http:
+      paths:
+        # Rute utama ke API Gateway
+        - path: /api/?(.*)
+          pathType: Prefix
+          backend:
+            service:
+              name: api-gateway
+              port:
+                number: 8080
+
+        # Rute ke Eureka Dashboard (opsional)
+        - path: /eureka
+          pathType: Prefix
+          backend:
+            service:
+              name: eurekaserver  # Sesuaikan dengan nama service Eureka
+              port:
+                number: 8761
